@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'df -h' 
+                sh 'ls -la' 
             }
         }
         stage('Test') { 
